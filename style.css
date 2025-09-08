@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fdfdfd;
+  color: #333;
+  margin: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background: #121212;
+  color: #f5f5f5;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background: #0077ff;
+  color: white;
+}
+
+button:hover {
+  background: #0055cc;
+}
+
+.faq-answer {
+  display: none;
+  margin: 5px 0 15px 0;
+}
+
+.faq-question {
+  cursor: pointer;
+  background: #eee;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+
+#formSuccess {
+  color: green;
+  font-weight: bold;
+}
